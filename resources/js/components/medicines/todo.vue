@@ -28,17 +28,17 @@
         </div>
 
         <div class="form-group">
-            <label for="start_date">Start Date</label>
+            <label for="start_date">Starting Date</label>
         <input type="date" name="start_date" id="start_date" class="form-control" v-model="start_date">
         </div>
 
         <div class="form-group">
-            <label for="end_date">End Date</label>
+            <label for="end_date">Last Date</label>
             <input type="date" name="end_date" id="end_date" class="form-control" v-model="end_date">
         </div>
 
         <div class="form-group">
-            <label for="repeat">Repeat</label>
+            <label for="repeat">Repeatation</label>
             <select name="repeat" id="repeat" class="form-control" v-model="repeat">
                 <option value="Never">Never</option>
                 <option value="Daily">Daily</option>
